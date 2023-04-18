@@ -12,6 +12,8 @@ jobs:
         with:
           node-version : 18.16.0
 
+      - run: $env:NODE_OPTIONS = "--openssl-legacy-provider"
+
       - run: npm ci
 
       - run: npm run build
