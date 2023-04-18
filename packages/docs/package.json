@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "build": "build-storybook",
+    "deploy-storybook" : "storybook-to-ghpages"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@storybook/addon-links": "^6.5.16",
     "@storybook/builder-vite": "^0.4.2",
     "@storybook/react": "^6.5.16",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.13",
     "@vitejs/plugin-react": "^3.1.0",
     "babel-loader": "^8.3.0",
@@ -29,6 +31,7 @@
     "@segatto-ui/react": "*",
     "@segatto-ui/tokens": "*",
     "@segatto-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^7.0.3",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
