@@ -12,9 +12,15 @@ jobs:
         with:
           node-version : 18.16.0
 
-      - run: $env:NODE_OPTIONS = "--openssl-legacy-provider"
+      - name: Set OpenSSL legacy provider
+        run: |
+          $env:NODE_OPTIONS = "--openssl-legacy-provider"
 
       - run: npm ci
+
+      - run: $env:NODE_OPTIONS = "--openssl-legacy-provider"
+
+      - run: NODE_OPTIONS = "--openssl-legacy-provider"
 
       - run: npm run build
 
