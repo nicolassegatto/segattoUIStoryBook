@@ -14,7 +14,7 @@ jobs:
 
       - name: Set OpenSSL legacy provider
         run: |
-          $env:NODE_OPTIONS = "--openssl-legacy-provider"
+          NODE_OPTIONS="--openssl-legacy-provider"
 
       - run: npm ci
 
