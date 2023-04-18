@@ -30,3 +30,4 @@ on:
   push:
     branches:
       - master
+      
