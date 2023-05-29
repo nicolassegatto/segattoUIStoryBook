@@ -9,3 +9,5 @@
 - [] CheckBox
 - [] Avatar
 - [] MultiStep
+
+// antes de rodar dev: $env:NODE_OPTIONS = "--openssl-legacy-provider"
