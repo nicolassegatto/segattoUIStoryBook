@@ -1,0 +1,2 @@
+import{A as t}from"./index-753bb436.js";import"./index-cf66c71f.js";import"./iframe-8ec84a7b.js";import"./index-b0942611.js";import"./jsx-runtime-4d2f90cf.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/nicolassegatto.png",alt:"Avatar image"},argTypes:{src:{control:{type:"text"}}}},p={},e={args:{src:void 0}},m=["Primary","WithFallback"];export{p as Primary,e as WithFallback,m as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories-3147af88.js.map
